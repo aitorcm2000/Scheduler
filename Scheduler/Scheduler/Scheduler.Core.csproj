@@ -6,8 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Scheduler.Test\Scheduler.Test.csproj" />
-  </ItemGroup>
+
 
 </Project>

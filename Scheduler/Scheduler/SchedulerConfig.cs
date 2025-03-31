@@ -1,7 +1,6 @@
 ﻿using System.Collections.Concurrent;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using Xunit.Sdk;
+
 
 namespace Scheduler
 {
@@ -20,10 +19,10 @@ namespace Scheduler
         //Declaracion de los datos pertinentes del formulario.
 
         //DATES
-        public DateTime currentDate { get; private set; } = DateTime.Now;
-        public DateTime nextDate { get; set; } = DateTime.Now;
-        public DateOnly startDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
-        public DateOnly endDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
+        public DateTime currentDate { get; private set; }
+        public DateTime nextDate { get; set; }
+        public DateOnly startDate { get; set; }
+        public DateOnly endDate { get; set; }
 
         //SCHEDULE CONFIG PARAMETERS
         public bool enabled { get; set; } = true;
@@ -32,15 +31,31 @@ namespace Scheduler
 
         public SchedulerConfig()
         {
-
+            currentDate = DateTime.Now;
+            nextDate = DateTime.Now;
+            startDate = DateOnly.FromDateTime(DateTime.Now);
+            endDate = DateOnly.FromDateTime(DateTime.Now);
         }
 
-        public bool dateChecker(DateTime date)
+        /**
+         * No puede haber fechas menores que la fecha actual
+         */
+        public bool DateChecker(DateTime date)
         {
-            return date > this.currentDate;
+            DateOnly dateOnly = DateOnly.FromDateTime(date);
+            return dateOnly >= DateOnly.FromDateTime(currentDate);
         }
 
-        public string descriptionGiver()
+        public bool DateChecker(DateOnly date)
+        {
+            return date >= DateOnly.FromDateTime(currentDate);
+        }
+
+        /**
+         * Devuelve un string determinado si esta activado el recordatorio de una vez (Once), 
+         * si no se cumple se devuelve otro string de mensaje para el recordatorio diario (Daily).
+         */
+        public string DescriptionGiver()
         {
             StringBuilder sb = new StringBuilder();
             if (scheduleOnce)
@@ -58,10 +73,36 @@ namespace Scheduler
             return sb.ToString();
         }
 
-        public DateTime nextDateChecker()
-        {
+        /**
+         * Comprueba si l
+         */
+        public bool NextDateCheckerOnce()
+        {            
+            bool condition = false ;
+
+            if (scheduleOnce)
+            {
+                if (DateChecker(startDate))
+                {
+                    condition = true;
+                }                
+            }            
             
-            return nextDate;
+            return condition;
+        }
+
+        public bool NextDateCheckerDaily()
+        {
+            bool condition = false ;
+            if (!scheduleOnce)
+            {
+                if (DateChecker(endDate))
+                {
+                    condition = true;
+                }
+            }
+
+            return condition;
         }
     }
 }

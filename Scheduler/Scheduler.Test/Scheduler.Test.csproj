@@ -18,6 +18,8 @@
 
   <ItemGroup>
     <Using Include="Xunit" />
+	<ProjectReference Include="..\Scheduler\Scheduler.Core.csproj" />
   </ItemGroup>
+	
 
 </Project>
