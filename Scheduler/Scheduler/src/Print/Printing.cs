@@ -22,17 +22,22 @@ namespace Scheduler.Core.src.Print
             if (config.scheduleOnce)
             {
                 sb.Append("Occurs once. ");
-                sb.Append($"Schedule will be used on {DateOnly.FromDateTime(config.nextDate)} at {TimeOnly.FromDateTime(config.nextDate)} ");
-                sb.Append($"starting on {config.startDate}");
+                sb.Append($"Schedule will be used on {PrintDateWithFormat(config.nextDate)} ");
+                sb.Append($"starting on {PrintDateWithFormat(config.startDate)}");
             }
             else
             {
                 sb.Append("Occurs every day. ");
-                sb.Append($"Schedule will be used on {DateOnly.FromDateTime(config.nextDate)} at {TimeOnly.FromDateTime(config.nextDate)} ");
-                sb.Append($"starting on {config.startDate}");
+                sb.Append($"Schedule will be used on {PrintDateWithFormat(config.nextDate)} ");
+                sb.Append($"starting on {PrintDateWithFormat(config.startDate)}");
             }
 
             return sb.ToString();
+        }
+
+        public string PrintDateWithFormat(DateTime date)
+        {
+            return date.ToString("dddd,dd-MMMM-yyyy  HH:mm:ss");
         }
     }
 }

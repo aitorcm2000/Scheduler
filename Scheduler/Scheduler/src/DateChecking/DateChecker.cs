@@ -21,20 +21,20 @@ namespace Scheduler.Core.src.DateChecking
             return date >= config.currentDate;
         }
 
-        public bool Check(DateOnly date)
-        {
-            DateOnly currentDate = DateOnly.FromDateTime(config.currentDate);
-            return date >= currentDate;
-        }
+        //public bool Check(DateOnly date)
+        //{
+        //    DateOnly currentDate = DateOnly.FromDateTime(config.currentDate);
+        //    return date >= currentDate;
+        //}
 
-        public bool Check(string date)
-        {
-            bool result = false;
-            if (DateTime.TryParse(date,out DateTime parsed))
-            {
-                if (parsed >= config.currentDate) result = true;
-            }
-            return result;
-        }
+        //public bool Check(string date)
+        //{
+        //    bool result = false;
+        //    if (DateTime.TryParse(date,out DateTime parsed))
+        //    {
+        //        if (parsed >= config.currentDate) result = true;
+        //    }
+        //    return result;
+        //}
     }
 }

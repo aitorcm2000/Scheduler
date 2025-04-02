@@ -21,8 +21,8 @@ namespace Scheduler.Core.src.ScheduleChecking
 
         public bool CorrectNextDate()
         {
-            DateOnly nextDate = DateOnly.FromDateTime(config.nextDate);
-            DateOnly endDate = config.endDate;
+            DateTime nextDate = config.nextDate;
+            DateTime endDate = config.endDate;
             bool resultado = false;
 
             if (nextDate <= endDate)

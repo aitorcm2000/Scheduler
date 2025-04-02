@@ -9,7 +9,7 @@ namespace Scheduler.Core.src
     internal interface IDateChecker
     {        
         bool Check(DateTime date);
-        bool Check(DateOnly date);
-        bool Check(string date);
+        //bool Check(DateOnly date);
+        //bool Check(string date);
     }
 }

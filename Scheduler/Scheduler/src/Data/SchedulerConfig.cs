@@ -19,10 +19,10 @@ namespace Scheduler.Core.src.Data
         //Declaracion de los datos pertinentes del formulario.
 
         //DATES
-        public DateTime currentDate { get; private set; }
+        public DateTime currentDate { get; set; }
         public DateTime nextDate { get; set; }
-        public DateOnly startDate { get; set; }
-        public DateOnly endDate { get; set; }
+        public DateTime startDate { get; set; }
+        public DateTime endDate { get; set; }
 
         //SCHEDULE CONFIG PARAMETERS
         public bool enabled { get; set; }
@@ -31,14 +31,15 @@ namespace Scheduler.Core.src.Data
 
         public SchedulerConfig()
         {
-            currentDate = DateTime.Now;
-            nextDate = DateTime.Now;
-            startDate = DateOnly.FromDateTime(DateTime.Now);
-            endDate = DateOnly.FromDateTime(DateTime.Now);
+            currentDate = DateTime.Today;
+            nextDate = DateTime.Today;
+            startDate = DateTime.Today;
+            endDate = DateTime.Today;
 
             enabled = true;
             scheduleInterval = 1;
             scheduleOnce = true;
         }
+        
     }
 }
