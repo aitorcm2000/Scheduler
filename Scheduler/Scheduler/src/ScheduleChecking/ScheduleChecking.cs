@@ -21,11 +21,12 @@ namespace Scheduler.Core.src.ScheduleChecking
 
         public bool CorrectNextDate()
         {
+            DateTime startDate = config.startDate;
             DateTime nextDate = config.nextDate;
             DateTime endDate = config.endDate;
             bool resultado = false;
 
-            if (nextDate <= endDate)
+            if ((nextDate <= endDate) && (nextDate>= startDate))
             {
                 if (dateChecker.Check(nextDate) && dateChecker.Check(endDate)) resultado = true;
             }

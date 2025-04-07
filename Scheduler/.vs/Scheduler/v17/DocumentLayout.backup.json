@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\print\\printing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\print\\printing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0CDAA31-7A0E-429C-B2C3-24B2B2FEA98A}|Scheduler.Test\\Scheduler.Test.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler.test\\schedulertesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0CDAA31-7A0E-429C-B2C3-24B2B2FEA98A}|Scheduler.Test\\Scheduler.Test.csproj|solutionrelative:scheduler.test\\schedulertesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\schedulechecking\\schedulechecking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\data\\schedulerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\datechecking\\datechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\datechecking\\datechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0CDAA31-7A0E-429C-B2C3-24B2B2FEA98A}|Scheduler.Test\\Scheduler.Test.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler.test\\schedulertesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0CDAA31-7A0E-429C-B2C3-24B2B2FEA98A}|Scheduler.Test\\Scheduler.Test.csproj|solutionrelative:scheduler.test\\schedulertesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\datechecking\\idatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\datechecking\\idatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|c:\\users\\aitorcm\\onedrive - semicrol s.l\\documents\\scheduler\\scheduler\\scheduler\\src\\print\\printing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBB9382-1737-4450-8AFD-272657E16E10}|Scheduler\\Scheduler.Core.csproj|solutionrelative:scheduler\\src\\print\\printing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 280,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SchedulerTesting.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
-              "RelativeDocumentMoniker": "Scheduler.Test\\SchedulerTesting.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
-              "RelativeToolTip": "Scheduler.Test\\SchedulerTesting.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:28:34.844Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Programa.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Programa.cs",
-              "RelativeDocumentMoniker": "Scheduler\\src\\Programa.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Programa.cs*",
-              "RelativeToolTip": "Scheduler\\src\\Programa.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:54:45.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDateChecker.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\DateChecking\\IDateChecker.cs",
-              "RelativeDocumentMoniker": "Scheduler\\src\\DateChecking\\IDateChecker.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\DateChecking\\IDateChecker.cs",
-              "RelativeToolTip": "Scheduler\\src\\DateChecking\\IDateChecker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:25:25.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DateChecker.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\DateChecking\\DateChecker.cs",
-              "RelativeDocumentMoniker": "Scheduler\\src\\DateChecking\\DateChecker.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\DateChecking\\DateChecker.cs",
-              "RelativeToolTip": "Scheduler\\src\\DateChecking\\DateChecker.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAApwAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T10:14:18.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Printing.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Print\\Printing.cs",
-              "RelativeDocumentMoniker": "Scheduler\\src\\Print\\Printing.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Print\\Printing.cs",
-              "RelativeToolTip": "Scheduler\\src\\Print\\Printing.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T08:02:42.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SchedulerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Data\\SchedulerConfig.cs",
-              "RelativeDocumentMoniker": "Scheduler\\src\\Data\\SchedulerConfig.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Data\\SchedulerConfig.cs",
-              "RelativeToolTip": "Scheduler\\src\\Data\\SchedulerConfig.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:40:49.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ScheduleChecking.cs",
               "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\ScheduleChecking\\ScheduleChecking.cs",
               "RelativeDocumentMoniker": "Scheduler\\src\\ScheduleChecking\\ScheduleChecking.cs",
               "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\ScheduleChecking\\ScheduleChecking.cs",
               "RelativeToolTip": "Scheduler\\src\\ScheduleChecking\\ScheduleChecking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:35:22.009Z",
+              "WhenOpened": "2025-04-07T13:46:02.357Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchedulerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Data\\SchedulerConfig.cs",
+              "RelativeDocumentMoniker": "Scheduler\\src\\Data\\SchedulerConfig.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Data\\SchedulerConfig.cs",
+              "RelativeToolTip": "Scheduler\\src\\Data\\SchedulerConfig.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:11:06.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Printing.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Print\\Printing.cs",
+              "RelativeDocumentMoniker": "Scheduler\\src\\Print\\Printing.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Print\\Printing.cs",
+              "RelativeToolTip": "Scheduler\\src\\Print\\Printing.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:47:30.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SchedulerTesting.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
+              "RelativeDocumentMoniker": "Scheduler.Test\\SchedulerTesting.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
+              "RelativeToolTip": "Scheduler.Test\\SchedulerTesting.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIAzwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:14:37.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Programa.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Programa.cs",
+              "RelativeDocumentMoniker": "Scheduler\\src\\Programa.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler\\src\\Programa.cs",
+              "RelativeToolTip": "Scheduler\\src\\Programa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:11:02.047Z",
               "EditorCaption": ""
             }
           ]

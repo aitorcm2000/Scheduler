@@ -101,3 +101,6 @@ C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler
 C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler.Test\obj\Debug\net8.0\Scheduler.Test.pdb
 C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler.Test\obj\Debug\net8.0\Scheduler.Test.genruntimeconfig.cache
 C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler.Test\obj\Debug\net8.0\ref\Scheduler.Test.dll
+C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler.Test\bin\Debug\net8.0\Scheduler.Core.deps.json
+C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler.Test\bin\Debug\net8.0\Scheduler.Core.runtimeconfig.json
+C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler.Test\bin\Debug\net8.0\Scheduler.Core.exe

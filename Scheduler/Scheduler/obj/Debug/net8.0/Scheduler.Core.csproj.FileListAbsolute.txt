@@ -10,3 +10,6 @@ C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler
 C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler\obj\Debug\net8.0\refint\Scheduler.Core.dll
 C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler\obj\Debug\net8.0\Scheduler.Core.pdb
 C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler\obj\Debug\net8.0\ref\Scheduler.Core.dll
+C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler\bin\Debug\net8.0\Scheduler.Core.exe
+C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler\bin\Debug\net8.0\Scheduler.Core.runtimeconfig.json
+C:\Users\aitorcm\OneDrive - SEMICROL S.L\Documents\Scheduler\Scheduler\Scheduler\obj\Debug\net8.0\Scheduler.Core.genruntimeconfig.cache
