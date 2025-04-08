@@ -26,54 +26,45 @@ namespace Scheduler.Core.src.ScheduleChecking
             DateTime endDate = config.endDate;
             bool resultado = false;
 
-            if ((nextDate <= endDate) && (nextDate>= startDate))
+            if ((nextDate <= endDate) && (nextDate >= startDate))
             {
                 if (dateChecker.Check(nextDate) && dateChecker.Check(endDate)) resultado = true;
             }
             return resultado;
         }
 
-        public bool UpdateNextDate()
+        public void UpdateNextDate()
         {
-            DateTime now = DateTime.Now;
-            DateTime nextDate = config.nextDate;
             bool enabled = config.enabled;
-            bool resultado = false;
+            bool scheduleOnce = config.scheduleOnce;
 
-            if (dateChecker.Check(nextDate))
+            if (enabled)
             {
-                if (enabled)
+                if (!scheduleOnce) 
                 {
-                    if(config.scheduleOnce)
-                    {
-                        config.nextDate = config.currentDate.AddDays(config.scheduleInterval);
-                        resultado = true;
-                    }
-                    else
+                    if (config.scheduleInterval >= 1)
                     {
                         if (CorrectNextDate())
                         {
-                            DateTime newNextDate = config.currentDate.AddDays(config.scheduleInterval);
+                            DateTime newNextDate;
+                            if (config.startDate > config.currentDate)
+                            {
+                                newNextDate = config.startDate;
+                            }
+                            else
+                            {
+                                newNextDate = config.currentDate.AddDays(config.scheduleInterval);
+                            }
 
                             if (dateChecker.Check(newNextDate))
                             {
                                 config.nextDate = newNextDate;
-                                resultado = true;
+
                             }
                         }
-                        
-                    }
-                }
-                else
-                {
-                    config.nextDate = config.currentDate.AddDays(1);
-                    resultado = true;
-                }
-
+                    }                    
+                }                
             }
-
-
-            return resultado;
         }
     }
 }

@@ -43,8 +43,7 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T13:46:02.357Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "Scheduler\\src\\Data\\SchedulerConfig.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAIwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:11:06.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T14:11:06.854Z"
             },
             {
               "$type": "Document",
@@ -69,8 +67,7 @@
               "RelativeToolTip": "Scheduler\\src\\Print\\Printing.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:47:30.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:47:30.396Z"
             },
             {
               "$type": "Document",
@@ -78,9 +75,9 @@
               "Title": "SchedulerTesting.cs",
               "DocumentMoniker": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
               "RelativeDocumentMoniker": "Scheduler.Test\\SchedulerTesting.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs*",
-              "RelativeToolTip": "Scheduler.Test\\SchedulerTesting.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAIAzwDQAAAC1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aitorcm\\OneDrive - SEMICROL S.L\\Documents\\Scheduler\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
+              "RelativeToolTip": "Scheduler.Test\\SchedulerTesting.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T13:14:37.857Z",
               "EditorCaption": ""
@@ -95,8 +92,7 @@
               "RelativeToolTip": "Scheduler\\src\\Programa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:11:02.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:11:02.047Z"
             }
           ]
         }

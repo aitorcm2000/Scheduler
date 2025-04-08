@@ -47,13 +47,13 @@ namespace Scheduler.Test
         {
             public IEnumerator<object[]> GetEnumerator()
             {
-                                                        //startDate,              currentDate,               nextDate,                   endDate,  expected    //casos
-                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 4), true    }; //standard
-                yield return new object[] { new DateTime(2025, 4, 2), new DateTime(2025, 4, 2), new DateTime(2025, 4, 2), new DateTime(2025, 4, 2), true    }; //todos iguales
-                yield return new object[] { new DateTime(2025, 4, 3), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 4), true    }; //startDate adelantado
-                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 1), new DateTime(2025, 4, 4), false   }; //nextDate mal
-                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 1), false   }; //endDate mal
-                yield return new object[] { new DateTime(2025, 4, 3), new DateTime(2025, 4, 2), new DateTime(2025, 4, 1), new DateTime(2025, 4, 4), false   }; //startDate y nextDate mal                
+                                                //startDate,                    currentDate,            nextDate,                   endDate,    expected    //casos
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 4), true }; //standard
+                yield return new object[] { new DateTime(2025, 4, 2), new DateTime(2025, 4, 2), new DateTime(2025, 4, 2), new DateTime(2025, 4, 2), true }; //todos iguales
+                yield return new object[] { new DateTime(2025, 4, 3), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 4), true }; //startDate adelantado
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 1), new DateTime(2025, 4, 4), false }; //nextDate mal
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 1), false }; //endDate mal
+                yield return new object[] { new DateTime(2025, 4, 3), new DateTime(2025, 4, 2), new DateTime(2025, 4, 1), new DateTime(2025, 4, 4), false }; //startDate y nextDate mal                
 
             }
 
@@ -71,10 +71,52 @@ namespace Scheduler.Test
             ScheduleChecking checking = new ScheduleChecking(config);
             config.startDate = startDate;
             config.currentDate = currrent;
-            config.endDate = end ;
+            config.endDate = end;
             config.nextDate = next;
             bool result = checking.CorrectNextDate();
 
+            Assert.Equal(expected, result);
+        }
+
+        internal class NextDateUpdateTestData : IEnumerable<object[]>
+        {
+            public IEnumerator<object[]> GetEnumerator()
+            {                                 //startDate,                    currentDate,            nextDate,                   endDate,    interval enable ,once,expected    //casos
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 1, true, true, true }; //standard
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 1, true, false, true };
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 2, false, true, false };                
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 3, 10), 1, true, true, false };
+                yield return new object[] { new DateTime(2025, 4, 5), new DateTime(2025, 4, 2), new DateTime(2025, 4, 5), new DateTime(2025, 4, 10), 1, true, true, true };
+            }
+
+            IEnumerator IEnumerable.GetEnumerator()
+            {
+                return GetEnumerator();
+            }
+        }
+
+        [Theory]
+        [ClassData(typeof(NextDateUpdateTestData))]
+        public void UpdateNextDateOnce(DateTime start, DateTime current, DateTime next, DateTime end, int interval, bool enabled, bool once, bool expected)
+        {
+            SchedulerConfig config = new SchedulerConfig();
+            ScheduleChecking checking = new ScheduleChecking(config);
+            config.startDate = start;
+            config.currentDate = current;            
+            config.endDate = end;
+            config.enabled = enabled;
+            config.scheduleInterval = interval;
+            config.scheduleOnce = once;
+
+            bool result = false;
+
+            DateTime resultNext = config.nextDate;
+            if (resultNext == current.AddDays(interval))
+            {
+                result = true;
+            }
+
+            Assert.Equal(resultNext, next);
             Assert.Equal(expected, result);
         }
     }
