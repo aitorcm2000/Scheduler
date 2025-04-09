@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aitorcm\\source\\repos\\Scheduler2.0\\Scheduler\\",
+  "WorkspaceRootPath": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|c:\\users\\aitorcm\\source\\repos\\scheduler2.0\\scheduler\\scheduler.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|solutionrelative:scheduler.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B4147BC-8C9E-4036-9D08-01F34EF0968F}|Scheduler.Test\\Scheduler.Test.csproj|c:\\users\\aitorcm\\source\\repos\\scheduler\\scheduler2.0\\scheduler\\scheduler.test\\src\\schedulertesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B4147BC-8C9E-4036-9D08-01F34EF0968F}|Scheduler.Test\\Scheduler.Test.csproj|solutionrelative:scheduler.test\\src\\schedulertesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|c:\\users\\aitorcm\\source\\repos\\scheduler\\scheduler2.0\\scheduler\\scheduler.core\\src\\nextdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|solutionrelative:scheduler.core\\src\\nextdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|c:\\users\\aitorcm\\source\\repos\\scheduler\\scheduler2.0\\scheduler\\scheduler.core\\src\\datechecking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|solutionrelative:scheduler.core\\src\\datechecking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|c:\\users\\aitorcm\\source\\repos\\scheduler\\scheduler2.0\\scheduler\\scheduler.core\\src\\schedulerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|solutionrelative:scheduler.core\\src\\schedulerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|c:\\users\\aitorcm\\source\\repos\\scheduler\\scheduler2.0\\scheduler\\scheduler.core\\src\\printing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2779CF-0731-49B6-B6A2-D66B682632B7}|Scheduler.Core\\Scheduler.Core.csproj|solutionrelative:scheduler.core\\src\\printing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 280,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Printing.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\Printing.cs",
+              "RelativeDocumentMoniker": "Scheduler.Core\\src\\Printing.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\Printing.cs",
+              "RelativeToolTip": "Scheduler.Core\\src\\Printing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:56:55.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\aitorcm\\source\\repos\\Scheduler2.0\\Scheduler\\Scheduler.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "Scheduler.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\aitorcm\\source\\repos\\Scheduler2.0\\Scheduler\\Scheduler.Core\\Class1.cs",
-              "RelativeToolTip": "Scheduler.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SchedulerTesting.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Test\\src\\SchedulerTesting.cs",
+              "RelativeDocumentMoniker": "Scheduler.Test\\src\\SchedulerTesting.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Test\\src\\SchedulerTesting.cs*",
+              "RelativeToolTip": "Scheduler.Test\\src\\SchedulerTesting.cs*",
+              "ViewState": "AgIAAIkAAAAAAAAAAAA8wJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:21:48.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SchedulerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\SchedulerConfig.cs",
+              "RelativeDocumentMoniker": "Scheduler.Core\\src\\SchedulerConfig.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\SchedulerConfig.cs",
+              "RelativeToolTip": "Scheduler.Core\\src\\SchedulerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T10:20:55.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b95833b4-2fad-449e-971c-a2ea0e6bff49",
+        "Display": 1,
+        "X": -160,
+        "Y": 496,
+        "Width": 1907,
+        "Height": 957,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateChecking.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\DateChecking.cs",
+              "RelativeDocumentMoniker": "Scheduler.Core\\src\\DateChecking.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\DateChecking.cs",
+              "RelativeToolTip": "Scheduler.Core\\src\\DateChecking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:38:29.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NextDateHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\NextDateHandler.cs",
+              "RelativeDocumentMoniker": "Scheduler.Core\\src\\NextDateHandler.cs",
+              "ToolTip": "C:\\Users\\aitorcm\\source\\repos\\Scheduler\\Scheduler2.0\\Scheduler\\Scheduler.Core\\src\\NextDateHandler.cs",
+              "RelativeToolTip": "Scheduler.Core\\src\\NextDateHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:51:51.388Z",
               "EditorCaption": ""
             }
           ]
