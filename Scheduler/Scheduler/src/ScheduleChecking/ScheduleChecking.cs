@@ -9,7 +9,7 @@ using Scheduler.Core.src.DateChecking;
 
 namespace Scheduler.Core.src.ScheduleChecking
 {
-    public class ScheduleChecking : IScheduleChecking
+    public class ScheduleChecking : IScheduleChecking // Ensure all interface methods are implemented
     {
         SchedulerConfig config;
         DateChecker dateChecker;
@@ -33,7 +33,7 @@ namespace Scheduler.Core.src.ScheduleChecking
             return resultado;
         }
 
-        public void UpdateNextDate()
+        public void UpdateNextDate(DateTime nextDate) // Ensure this matches the interface signature
         {
             bool enabled = config.enabled;
             bool scheduleOnce = config.scheduleOnce;
@@ -63,8 +63,19 @@ namespace Scheduler.Core.src.ScheduleChecking
                             }
                         }
                     }                    
-                }                
+                }
+                else
+                {
+                    if (dateChecker.Check(nextDate))
+                    {
+                        config.nextDate = nextDate;
+                    } else
+                    {
+                        config.nextDate = config.currentDate;
+                    }
+                }
             }
         }
+
     }
 }

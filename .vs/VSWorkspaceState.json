@@ -5,6 +5,6 @@
     "\\Scheduler\\Scheduler",
     "\\Scheduler\\Scheduler.Test"
   ],
-  "SelectedNode": "\\Scheduler\\Scheduler.sln",
+  "SelectedNode": "\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
   "PreviewInSolutionExplorer": true
 }

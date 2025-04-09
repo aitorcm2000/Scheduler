@@ -9,6 +9,6 @@ namespace Scheduler.Core.src.ScheduleChecking
     public interface IScheduleChecking
     {
         bool CorrectNextDate ();
-        void UpdateNextDate();
+        void UpdateNextDate(DateTime nextDate);
     }
 }

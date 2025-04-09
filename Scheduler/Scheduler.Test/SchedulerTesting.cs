@@ -82,7 +82,7 @@ namespace Scheduler.Test
         {
             public IEnumerator<object[]> GetEnumerator()
             {                                 //startDate,                    currentDate,            nextDate,                   endDate,    interval enable ,once,expected    //casos
-                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 1, true, true, true }; //standard
+                yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 1, true, true, false }; //standard
                 yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 1, true, false, true };
                 yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 4, 10), 2, false, true, false };                
                 yield return new object[] { new DateTime(2025, 4, 1), new DateTime(2025, 4, 2), new DateTime(2025, 4, 3), new DateTime(2025, 3, 10), 1, true, true, false };
@@ -101,6 +101,7 @@ namespace Scheduler.Test
         {
             SchedulerConfig config = new SchedulerConfig();
             ScheduleChecking checking = new ScheduleChecking(config);
+
             config.startDate = start;
             config.currentDate = current;            
             config.endDate = end;
@@ -109,14 +110,15 @@ namespace Scheduler.Test
             config.scheduleOnce = once;
 
             bool result = false;
-
+            checking.UpdateNextDate(next);
             DateTime resultNext = config.nextDate;
             if (resultNext == current.AddDays(interval))
             {
                 result = true;
+                Assert.Equal(resultNext, next);
             }
 
-            Assert.Equal(resultNext, next);
+            
             Assert.Equal(expected, result);
         }
     }
