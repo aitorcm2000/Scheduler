@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Scheduler",
+    "\\Scheduler\\Scheduler",
+    "\\Scheduler\\Scheduler.Test"
   ],
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\Scheduler\\Scheduler.Test\\SchedulerTesting.cs",
+  "PreviewInSolutionExplorer": true
 }
