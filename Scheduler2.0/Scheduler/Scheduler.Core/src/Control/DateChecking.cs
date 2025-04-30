@@ -9,7 +9,7 @@ namespace Scheduler.Core.src.Control
             SchedulerConfig.updateCurrentDate();
             bool Result = false;
 
-            if (date != null) 
+            if (date != new DateTime ()) 
             {
                 if (date > SchedulerConfig.NextDate)
                 {
