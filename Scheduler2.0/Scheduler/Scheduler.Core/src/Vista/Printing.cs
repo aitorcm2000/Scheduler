@@ -23,9 +23,6 @@ namespace Scheduler.Core.src.Vista
             return sb.ToString();
         }
 
-        public string PrintDateWithFormat(DateTime date)
-        {
-            return date.ToString("dddd,dd-MMMM-yyyy  HH:mm:ss");
-        }
+        public string PrintDateWithFormat(DateTime date) => date.ToString("dddd,dd-MMMM-yyyy  HH:mm:ss");
     }
 }
