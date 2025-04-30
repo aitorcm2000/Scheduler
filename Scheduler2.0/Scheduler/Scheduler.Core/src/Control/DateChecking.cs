@@ -6,10 +6,10 @@ namespace Scheduler.Core.src.Control
     {
         public bool isFutureDate(DateTime date)
         {
-            SchedulerConfig.updateCurrentDate();
+            SchedulerConfig.UpdateCurrentDate();
             bool Result = false;
 
-            if (date != null) 
+            if (date != new DateTime ()) 
             {
                 if (date > SchedulerConfig.NextDate)
                 {

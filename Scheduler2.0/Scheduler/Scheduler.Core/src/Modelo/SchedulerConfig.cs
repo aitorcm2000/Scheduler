@@ -11,7 +11,7 @@
         public static bool ScheduleOnce { get; set; } = true;
         public static int ScheduleInterval { get; set; } = 0;
 
-        public static void updateCurrentDate()
+        public static void UpdateCurrentDate()
         {
             CurrentDate = DateTime.Today;
         }

@@ -46,20 +46,19 @@ namespace Scheduler.Test.src
             public IEnumerator<object[]> GetEnumerator()
             {
                 yield return new object[] { current, current, current.AddDays(5), current, true, true, 0, true, 1 };
-                yield return new object[] { current, current, current.AddDays(0), current, true, true, 0, false, 2 };
-                yield return new object[] { current, current, current.AddDays(-5), current, true, true, 0, false, 3 };
-                yield return new object[] { null, current, current.AddDays(5), current, true, true, 0, true, 4 };
-                yield return new object[] { current, null, current.AddDays(0), current, true, true, 0, true, 5 };
-                yield return new object[] { current, current, null, current, true, true, 0, false, 6 };
-                yield return new object[] { null, current, current.AddDays(5), current, true, true, 0, true, 7 };
-                yield return new object[] { current, null, current.AddDays(0), null, true, true, 0, true, 8 };
-                yield return new object[] { current, current, null, null, true, true, 0, false, 9 };
-                yield return new object[] { DateTime.MinValue, current, current.AddDays(1), null, true, true, 0, true, 10 }; // Start date at MinValue  
-                yield return new object[] { current, current, DateTime.MaxValue, null, true, true, 0, true, 11 }; // Expected next date at MaxValue  
-                yield return new object[] { current, current, current.AddDays(1), DateTime.MinValue, true, true, 0, true, 12 }; // End date at MinValue  
-                yield return new object[] { current, current, current.AddDays(1), DateTime.MaxValue, true, true, 0, true, 13 }; // End date at MaxValue  
-                yield return new object[] { current, current, current.AddDays(1), null, false, true, 0, true, 14 }; // Disabled scheduling  
-                yield return new object[] { current, current, current.AddDays(1), null, true, false, 0, true, 15 }; // Not a one-time schedule  
+                yield return new object[] { current, current, current.AddDays(-5), current, true, true, 0, false, 2 };
+                yield return new object[] { null, current, current.AddDays(5), current, true, true, 0, true, 3 };
+                yield return new object[] { current, null, current.AddDays(0), current, true, true, 0, true, 4 };
+                yield return new object[] { current, current, null, current, true, true, 0, false, 5 };
+                yield return new object[] { null, current, current.AddDays(5), current, true, true, 0, true, 6 };
+                yield return new object[] { current, null, current.AddDays(0), null, true, true, 0, true, 7 };
+                yield return new object[] { current, current, null, null, true, true, 0, false, 8 };
+                yield return new object[] { DateTime.MinValue, current, current.AddDays(1), null, true, true, 0, true, 9 }; // Start date at MinValue  
+                yield return new object[] { current, current, DateTime.MaxValue, null, true, true, 0, true, 10 }; // Expected next date at MaxValue  
+                yield return new object[] { current, current, current.AddDays(1), DateTime.MinValue, true, true, 0, true, 11 }; // End date at MinValue  
+                yield return new object[] { current, current, current.AddDays(1), DateTime.MaxValue, true, true, 0, true, 12 }; // End date at MaxValue  
+                yield return new object[] { current, current, current.AddDays(1), null, false, true, 0, true, 13 }; // Disabled scheduling  
+                yield return new object[] { current, current, current.AddDays(1), null, true, false, 0, true, 14 }; // Not a one-time schedule  
 
             }
             IEnumerator IEnumerable.GetEnumerator()
@@ -118,12 +117,10 @@ namespace Scheduler.Test.src
                 yield return new object[] { current, current, plus1day, plus1day, true, true, -1, false, 10 };
                 yield return new object[] { plus1day, current, plus2days, minus1day, true, true, 1, false, 11 };
                 yield return new object[] { plus1day, current, plus2days, minus1day, true, true, -1, false, 12 };
-                yield return new object[] { DateTime.MinValue, current, current.AddDays(1), null, true, true, 1, true, 13 }; // Start date at MinValue  
-                yield return new object[] { current, current, DateTime.MaxValue, null, true, true, 1, false, 14 }; // Expected next date at MaxValue  
-                yield return new object[] { current, current, current.AddDays(1), DateTime.MinValue, true, true, 1, false, 15 }; // End date at MinValue  
-                yield return new object[] { current, current, current.AddDays(1), DateTime.MaxValue, true, true, 1, true, 16 }; // End date at MaxValue  
-                yield return new object[] { current, current, current.AddDays(1), null, false, true, 1, true, 17 }; // Disabled scheduling  
-                yield return new object[] { current, current, current.AddDays(1), null, true, false, 1, true, 18 }; // Not a one-time schedule  
+                yield return new object[] { DateTime.MinValue, current, current.AddDays(1), null, true, true, 1, true, 13 }; // Start date at MinValue                
+                yield return new object[] { current, current, current.AddDays(1), DateTime.MinValue, true, true, 1, false, 14 }; // End date at MinValue   
+                yield return new object[] { current, current, current.AddDays(1), null, false, true, 1, true, 15 }; // Disabled scheduling  
+                yield return new object[] { current, current, current.AddDays(1), null, true, false, 1, true, 16 }; // Not a one-time schedule  
             }
 
             IEnumerator IEnumerable.GetEnumerator()

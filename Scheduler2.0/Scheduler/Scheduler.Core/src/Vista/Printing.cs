@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using Scheduler.Core.src.Modelo;
 
 namespace Scheduler.Core.src.Vista
@@ -27,9 +23,6 @@ namespace Scheduler.Core.src.Vista
             return sb.ToString();
         }
 
-        public string PrintDateWithFormat(DateTime date)
-        {
-            return date.ToString("dddd,dd-MMMM-yyyy  HH:mm:ss");
-        }
+        public string PrintDateWithFormat(DateTime date) => date.ToString("dddd,dd-MMMM-yyyy  HH:mm:ss");
     }
 }

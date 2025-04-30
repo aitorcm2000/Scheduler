@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using Scheduler.Core.src.Modelo;
+﻿using Scheduler.Core.src.Modelo;
 
 namespace Scheduler.Core.src.Control
 {
@@ -41,9 +35,6 @@ namespace Scheduler.Core.src.Control
             }
 
         }
-
-        //start: 2025-04-29, next: 2025-04-29, expectedNext: 2025-04-30, end: 0001-01-01, enable: True, once: True, interval: 0, expected: False, iteration: 12
-        //start: 2025-04-29, next: 2025-04-29, expectedNext: 2025-04-30, end: null, enable: False, once: True, interval: 0, expected: False, iteration: 14)
 
         public bool TrySchedulingOnce(DateTime date)
         {
